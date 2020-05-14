@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="migration person FK" directorySegmentName="seg_0" id="33669274-C0A2-FE55-2EE2-62CC8522A8FB">
+<createdBy>TOSHIBA</createdBy>
+<createdTime>2020-05-14 16:44:28 UTC</createdTime>
+<generatorID>F6841087-EC7E-1741-FE03-4DC971C83DC2</generatorID>
+<ownerDesignName>workshop_4</ownerDesignName>
+<engineerTo>
+<item key="BE7C0A14-2DBC-3AEC-42D1-59E533A76903" value="true"/>
+</engineerTo>
+<sourcePk>A92B2215-16DE-407B-4111-EC1024D55C7E</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>99ED9F07-A094-2008-D5C1-F2FECEEAB801</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>F2DBB27B-B6DE-B3B9-D422-8E77585B6F67</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

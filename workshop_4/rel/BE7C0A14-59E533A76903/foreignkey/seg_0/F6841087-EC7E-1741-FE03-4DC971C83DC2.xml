@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F6841087-EC7E-1741-FE03-4DC971C83DC2" containerWithKeyObject="7B34395A-A1E3-281A-C319-0C76947E4398" localFKIndex="7C6F2859-73F0-69C3-3103-C313E97F249A" name="migration_person_FK">
+<createdBy>TOSHIBA</createdBy>
+<createdTime>2020-05-14 16:40:43 UTC</createdTime>
+<ownerDesignName>workshop_4</ownerDesignName>
+<referredTableLongName>person</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>FF0D46EF-2F2D-A338-F970-D6C0AB8A45D6</referredTableID>
+<keyObject>2DA59E32-252B-F561-F981-9EAEDAB77CCE</keyObject>
+<referredKeyID>2DA59E32-252B-F561-F981-9EAEDAB77CCE</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>passport</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

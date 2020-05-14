@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="coastline_country_FK" directorySegmentName="seg_0" id="7F577EF4-3780-ABCA-FB53-DE0E861C1248">
+<createdBy>TOSHIBA</createdBy>
+<createdTime>2020-05-14 15:53:04 UTC</createdTime>
+<generatorID>D620A0DC-7E64-8CF8-6E56-C3066FAAA369</generatorID>
+<ownerDesignName>workshop_4</ownerDesignName>
+<engineerTo>
+<item key="BE7C0A14-2DBC-3AEC-42D1-59E533A76903" value="true"/>
+</engineerTo>
+<sourcePk>03A0EC25-E2BB-2320-39DD-DDE163FE1D71</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>DFC15E7C-73FB-272A-F8DB-E731C04ACF39</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>37552D71-8190-5ADD-06BB-8D3A9A5871F0</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

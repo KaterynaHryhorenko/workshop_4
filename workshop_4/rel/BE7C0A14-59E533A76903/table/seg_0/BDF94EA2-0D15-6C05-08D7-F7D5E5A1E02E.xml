@@ -1,0 +1,36 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BDF94EA2-0D15-6C05-08D7-F7D5E5A1E02E" name="region">
+<createdBy>TOSHIBA</createdBy>
+<createdTime>2020-05-12 15:45:38 UTC</createdTime>
+<ownerDesignName>workshop_4</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="region" id="BB5F1538-8A17-EEC8-B97F-B38634F72548">
+<createdBy>TOSHIBA</createdBy>
+<createdTime>2020-05-12 15:45:53 UTC</createdTime>
+<ownerDesignName>workshop_4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E583BD35-8C50-A802-6000-5630959C9BFA" name="region_PK">
+<createdBy>TOSHIBA</createdBy>
+<createdTime>2020-05-12 15:46:12 UTC</createdTime>
+<ownerDesignName>workshop_4</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BB5F1538-8A17-EEC8-B97F-B38634F72548"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

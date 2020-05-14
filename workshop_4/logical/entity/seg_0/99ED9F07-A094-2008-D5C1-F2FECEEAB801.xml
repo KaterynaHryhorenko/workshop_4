@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="99ED9F07-A094-2008-D5C1-F2FECEEAB801" name="person">
+<createdBy>TOSHIBA</createdBy>
+<createdTime>2020-05-14 15:53:04 UTC</createdTime>
+<generatorID>FF0D46EF-2F2D-A338-F970-D6C0AB8A45D6</generatorID>
+<ownerDesignName>workshop_4</ownerDesignName>
+<engineerTo>
+<item key="BE7C0A14-2DBC-3AEC-42D1-59E533A76903" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="name" id="92A482A0-C01A-641A-B79C-057534A7F177">
+<createdBy>TOSHIBA</createdBy>
+<createdTime>2020-05-14 15:53:04 UTC</createdTime>
+<generatorID>E68ADB10-DF58-60FE-BFF6-5FCB295E08C5</generatorID>
+<ownerDesignName>workshop_4</ownerDesignName>
+<engineerTo>
+<item key="BE7C0A14-2DBC-3AEC-42D1-59E533A76903" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="passport" id="D9768124-2253-C162-F94B-37D0F3AD2646">
+<createdBy>TOSHIBA</createdBy>
+<createdTime>2020-05-14 15:53:04 UTC</createdTime>
+<generatorID>5F4D0CB5-FFB6-9400-7CE8-8DACA60690B8</generatorID>
+<ownerDesignName>workshop_4</ownerDesignName>
+<engineerTo>
+<item key="BE7C0A14-2DBC-3AEC-42D1-59E533A76903" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>12,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="native country" id="885D9871-C508-B2D2-AB38-9FD654530250">
+<createdBy>TOSHIBA</createdBy>
+<createdTime>2020-05-14 16:44:28 UTC</createdTime>
+<generatorID>1E6289E5-058B-82C1-DFC4-C01C484467FB</generatorID>
+<ownerDesignName>workshop_4</ownerDesignName>
+<engineerTo>
+<item key="BE7C0A14-2DBC-3AEC-42D1-59E533A76903" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="date of birth" id="EEA71F01-9FF9-497B-6DAB-815113D3563A">
+<createdBy>TOSHIBA</createdBy>
+<createdTime>2020-05-14 16:44:28 UTC</createdTime>
+<generatorID>6EB532CD-9075-042E-7F4F-77D2C3B6E5B8</generatorID>
+<ownerDesignName>workshop_4</ownerDesignName>
+<engineerTo>
+<item key="BE7C0A14-2DBC-3AEC-42D1-59E533A76903" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="native country1" id="BEA83E85-3A9B-8690-1275-4E8F08DD1031">
+<createdBy>TOSHIBA</createdBy>
+<createdTime>2020-05-14 16:52:11 UTC</createdTime>
+<generatorID>E552D1A1-B96D-49CA-CA5E-D4FF2E08341E</generatorID>
+<ownerDesignName>workshop_4</ownerDesignName>
+<engineerTo>
+<item key="BE7C0A14-2DBC-3AEC-42D1-59E533A76903" value="true"/>
+</engineerTo>
+<referedAttribute>63D3C8F7-58AD-201B-82FF-46682A5684C0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A92B2215-16DE-407B-4111-EC1024D55C7E" name="person PK">
+<createdBy>TOSHIBA</createdBy>
+<createdTime>2020-05-14 15:53:04 UTC</createdTime>
+<generatorID>2DA59E32-252B-F561-F981-9EAEDAB77CCE</generatorID>
+<ownerDesignName>workshop_4</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="BE7C0A14-2DBC-3AEC-42D1-59E533A76903" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D9768124-2253-C162-F94B-37D0F3AD2646</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

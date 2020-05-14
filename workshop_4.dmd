@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="workshop_4" id="24789429-A1F3-7247-0C34-9B28E9BA27CE" version="3.5">
+<createdBy>TOSHIBA</createdBy>
+<createdTime>2020-05-12 15:43:20 UTC</createdTime>
+<ownerDesignName>two_grate</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>24789429-A1F3-7247-0C34-9B28E9BA27CE</designId>
+</OSDM_Design>

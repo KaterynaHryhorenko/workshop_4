@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CA3914AA-CC28-D600-26B5-ECABB0D72658" name="gdp">
+<createdBy>TOSHIBA</createdBy>
+<createdTime>2020-05-12 15:51:46 UTC</createdTime>
+<ownerDesignName>workshop_4</ownerDesignName>
+<ordsAlias>table_6</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="gdp" id="D5358707-DD12-F015-3A31-CBB334DA0FBF">
+<createdBy>TOSHIBA</createdBy>
+<createdTime>2020-05-12 15:52:05 UTC</createdTime>
+<ownerDesignName>workshop_4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="date" id="AB36E4E5-C427-79D6-C54D-1AF0C28ED6E9">
+<createdBy>TOSHIBA</createdBy>
+<createdTime>2020-05-12 15:52:05 UTC</createdTime>
+<ownerDesignName>workshop_4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="country_fk" id="3C41929C-538B-B7E3-2124-C9B4D0863306">
+<createdBy>TOSHIBA</createdBy>
+<createdTime>2020-05-12 15:52:09 UTC</createdTime>
+<ownerDesignName>workshop_4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="518766C7-CE38-5D3C-581C-947E6DDB5761" referredColumn="676469E3-34B2-4BE3-7C06-1F7586561DD5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D3EDF25D-3176-7123-1F47-1DCF725A3090" name="gdp_country_FK">
+<createdBy>TOSHIBA</createdBy>
+<createdTime>2020-05-12 15:52:09 UTC</createdTime>
+<ownerDesignName>workshop_4</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3C41929C-538B-B7E3-2124-C9B4D0863306"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

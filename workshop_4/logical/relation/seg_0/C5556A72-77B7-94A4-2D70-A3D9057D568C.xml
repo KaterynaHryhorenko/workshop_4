@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="migration country FK" directorySegmentName="seg_0" id="C5556A72-77B7-94A4-2D70-A3D9057D568C">
+<createdBy>TOSHIBA</createdBy>
+<createdTime>2020-05-14 16:44:28 UTC</createdTime>
+<generatorID>EAC06280-02FB-6676-4841-F9A2DFA4F438</generatorID>
+<ownerDesignName>workshop_4</ownerDesignName>
+<engineerTo>
+<item key="BE7C0A14-2DBC-3AEC-42D1-59E533A76903" value="true"/>
+</engineerTo>
+<sourcePk>03A0EC25-E2BB-2320-39DD-DDE163FE1D71</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>DFC15E7C-73FB-272A-F8DB-E731C04ACF39</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>F2DBB27B-B6DE-B3B9-D422-8E77585B6F67</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

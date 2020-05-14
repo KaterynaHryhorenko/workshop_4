@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7B34395A-A1E3-281A-C319-0C76947E4398" name="migration">
+<createdBy>TOSHIBA</createdBy>
+<createdTime>2020-05-14 16:39:18 UTC</createdTime>
+<ownerDesignName>workshop_4</ownerDesignName>
+<ordsAlias>table_11</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="date" id="C9770C35-46FF-99B2-6927-57512A02F491">
+<createdBy>TOSHIBA</createdBy>
+<createdTime>2020-05-14 16:39:41 UTC</createdTime>
+<ownerDesignName>workshop_4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="person_passport" id="A105725B-FC69-BA92-B35F-D56ED4532BAD">
+<createdBy>TOSHIBA</createdBy>
+<createdTime>2020-05-14 16:40:43 UTC</createdTime>
+<ownerDesignName>workshop_4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F6841087-EC7E-1741-FE03-4DC971C83DC2" referredColumn="5F4D0CB5-FFB6-9400-7CE8-8DACA60690B8"/>
+</associations>
+</Column>
+<Column name="country_in" id="ABA49DA0-57F7-FABD-BEAD-F1A2FD7E7B75">
+<createdBy>TOSHIBA</createdBy>
+<createdTime>2020-05-14 16:41:12 UTC</createdTime>
+<ownerDesignName>workshop_4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EAC06280-02FB-6676-4841-F9A2DFA4F438" referredColumn="676469E3-34B2-4BE3-7C06-1F7586561DD5"/>
+</associations>
+</Column>
+<Column name="country_out" id="B5872459-32DF-C146-F6C9-E5DB65A8F944">
+<createdBy>TOSHIBA</createdBy>
+<createdTime>2020-05-14 16:42:01 UTC</createdTime>
+<ownerDesignName>workshop_4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="63C83AE8-B957-F202-1961-39F35C372640" referredColumn="676469E3-34B2-4BE3-7C06-1F7586561DD5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DB18747E-C689-0069-7776-E2F18620EB02" name="migration_PK">
+<createdBy>TOSHIBA</createdBy>
+<createdTime>2020-05-14 16:51:14 UTC</createdTime>
+<ownerDesignName>workshop_4</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C9770C35-46FF-99B2-6927-57512A02F491"/>
+<colUsage columnID="A105725B-FC69-BA92-B35F-D56ED4532BAD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7C6F2859-73F0-69C3-3103-C313E97F249A" name="migration_person_FK">
+<createdBy>TOSHIBA</createdBy>
+<createdTime>2020-05-14 16:40:43 UTC</createdTime>
+<ownerDesignName>workshop_4</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A105725B-FC69-BA92-B35F-D56ED4532BAD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C07F9EF6-F00B-10CE-05DD-736FE21239D3" name="migration_country_FK">
+<createdBy>TOSHIBA</createdBy>
+<createdTime>2020-05-14 16:41:12 UTC</createdTime>
+<ownerDesignName>workshop_4</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ABA49DA0-57F7-FABD-BEAD-F1A2FD7E7B75"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="580254C7-DE0E-C8CE-80D4-A65F9FFA9DB2" name="migration_country_FKv2">
+<createdBy>TOSHIBA</createdBy>
+<createdTime>2020-05-14 16:42:01 UTC</createdTime>
+<ownerDesignName>workshop_4</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B5872459-32DF-C146-F6C9-E5DB65A8F944"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

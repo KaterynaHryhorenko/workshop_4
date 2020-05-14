@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="53FBC404-CADF-E5A3-BDE8-DB135D0994BF" mainViewID="9F47AE20-D3ED-D1F6-6E3D-0EA38B67C7BC">
+<createdBy>TOSHIBA</createdBy>
+<createdTime>2020-05-12 15:43:21 UTC</createdTime>
+<ownerDesignName>two_grate</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

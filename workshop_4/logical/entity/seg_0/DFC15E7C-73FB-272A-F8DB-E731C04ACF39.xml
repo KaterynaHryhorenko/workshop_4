@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DFC15E7C-73FB-272A-F8DB-E731C04ACF39" name="country">
+<createdBy>TOSHIBA</createdBy>
+<createdTime>2020-05-14 15:53:04 UTC</createdTime>
+<generatorID>1D68FD68-74A4-FC3C-7968-36CB028F861C</generatorID>
+<ownerDesignName>workshop_4</ownerDesignName>
+<engineerTo>
+<item key="BE7C0A14-2DBC-3AEC-42D1-59E533A76903" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="country" id="63D3C8F7-58AD-201B-82FF-46682A5684C0">
+<createdBy>TOSHIBA</createdBy>
+<createdTime>2020-05-14 15:53:04 UTC</createdTime>
+<generatorID>676469E3-34B2-4BE3-7C06-1F7586561DD5</generatorID>
+<ownerDesignName>workshop_4</ownerDesignName>
+<engineerTo>
+<item key="BE7C0A14-2DBC-3AEC-42D1-59E533A76903" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="region fk" id="E98F471F-3DA8-C1B3-BCD5-6D0A030FF864">
+<createdBy>TOSHIBA</createdBy>
+<createdTime>2020-05-14 15:53:04 UTC</createdTime>
+<generatorID>3E7D0E04-E23E-E40F-BEDB-A93F31277BAA</generatorID>
+<ownerDesignName>workshop_4</ownerDesignName>
+<engineerTo>
+<item key="BE7C0A14-2DBC-3AEC-42D1-59E533A76903" value="true"/>
+</engineerTo>
+<referedAttribute>8F30C2F5-24E8-24EE-D564-C245B43ABEF2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="03A0EC25-E2BB-2320-39DD-DDE163FE1D71" name="country PK">
+<createdBy>TOSHIBA</createdBy>
+<createdTime>2020-05-14 15:53:04 UTC</createdTime>
+<generatorID>C5333CF5-48D0-5C77-CF77-00A9B463E21C</generatorID>
+<ownerDesignName>workshop_4</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="BE7C0A14-2DBC-3AEC-42D1-59E533A76903" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>63D3C8F7-58AD-201B-82FF-46682A5684C0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

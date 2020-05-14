@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F2DBB27B-B6DE-B3B9-D422-8E77585B6F67" name="migration">
+<createdBy>TOSHIBA</createdBy>
+<createdTime>2020-05-14 16:44:28 UTC</createdTime>
+<generatorID>7B34395A-A1E3-281A-C319-0C76947E4398</generatorID>
+<ownerDesignName>workshop_4</ownerDesignName>
+<engineerTo>
+<item key="BE7C0A14-2DBC-3AEC-42D1-59E533A76903" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="date" id="55EB4A36-4CB9-3BF6-FA59-1BD62C58DD94">
+<createdBy>TOSHIBA</createdBy>
+<createdTime>2020-05-14 16:44:28 UTC</createdTime>
+<generatorID>C9770C35-46FF-99B2-6927-57512A02F491</generatorID>
+<ownerDesignName>workshop_4</ownerDesignName>
+<engineerTo>
+<item key="BE7C0A14-2DBC-3AEC-42D1-59E533A76903" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="person passport" id="A2616DC4-11EB-A39D-50F4-304BFB6ED961">
+<createdBy>TOSHIBA</createdBy>
+<createdTime>2020-05-14 16:44:28 UTC</createdTime>
+<generatorID>33669274-C0A2-FE55-2EE2-62CC8522A8FB</generatorID>
+<ownerDesignName>workshop_4</ownerDesignName>
+<engineerTo>
+<item key="BE7C0A14-2DBC-3AEC-42D1-59E533A76903" value="true"/>
+</engineerTo>
+<referedAttribute>D9768124-2253-C162-F94B-37D0F3AD2646</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="country in" id="5FF8FB4A-604F-4FC5-671B-58EB9CA6D393">
+<createdBy>TOSHIBA</createdBy>
+<createdTime>2020-05-14 16:44:28 UTC</createdTime>
+<generatorID>C5556A72-77B7-94A4-2D70-A3D9057D568C</generatorID>
+<ownerDesignName>workshop_4</ownerDesignName>
+<engineerTo>
+<item key="BE7C0A14-2DBC-3AEC-42D1-59E533A76903" value="true"/>
+</engineerTo>
+<referedAttribute>63D3C8F7-58AD-201B-82FF-46682A5684C0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="country out" id="1815C1AD-891F-1F04-E0F8-1FC0F0D879B3">
+<createdBy>TOSHIBA</createdBy>
+<createdTime>2020-05-14 16:44:28 UTC</createdTime>
+<generatorID>B1E12621-242A-70E3-16F1-C3EC716AB355</generatorID>
+<ownerDesignName>workshop_4</ownerDesignName>
+<engineerTo>
+<item key="BE7C0A14-2DBC-3AEC-42D1-59E533A76903" value="true"/>
+</engineerTo>
+<referedAttribute>63D3C8F7-58AD-201B-82FF-46682A5684C0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3FC87FAB-D599-CB6F-045C-948A466EC911" name="migration PK">
+<createdBy>TOSHIBA</createdBy>
+<createdTime>2020-05-14 16:52:11 UTC</createdTime>
+<generatorID>DB18747E-C689-0069-7776-E2F18620EB02</generatorID>
+<ownerDesignName>workshop_4</ownerDesignName>
+<engineerTo>
+<item key="BE7C0A14-2DBC-3AEC-42D1-59E533A76903" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>55EB4A36-4CB9-3BF6-FA59-1BD62C58DD94</attributeRef>
+<attributeRef>A2616DC4-11EB-A39D-50F4-304BFB6ED961</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

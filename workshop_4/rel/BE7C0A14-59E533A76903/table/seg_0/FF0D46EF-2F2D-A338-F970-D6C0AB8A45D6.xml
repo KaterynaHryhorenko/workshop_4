@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FF0D46EF-2F2D-A338-F970-D6C0AB8A45D6" name="person">
+<createdBy>TOSHIBA</createdBy>
+<createdTime>2020-05-14 15:40:46 UTC</createdTime>
+<ownerDesignName>workshop_4</ownerDesignName>
+<ordsAlias>table_8</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="name" id="E68ADB10-DF58-60FE-BFF6-5FCB295E08C5">
+<createdBy>TOSHIBA</createdBy>
+<createdTime>2020-05-14 15:41:10 UTC</createdTime>
+<ownerDesignName>workshop_4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="passport" id="5F4D0CB5-FFB6-9400-7CE8-8DACA60690B8">
+<createdBy>TOSHIBA</createdBy>
+<createdTime>2020-05-14 15:41:10 UTC</createdTime>
+<ownerDesignName>workshop_4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>12,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="date_of_birth" id="6EB532CD-9075-042E-7F4F-77D2C3B6E5B8">
+<createdBy>TOSHIBA</createdBy>
+<createdTime>2020-05-14 16:31:12 UTC</createdTime>
+<ownerDesignName>workshop_4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="native_country1" id="AF17932A-853C-6C32-A563-CC66079E4EB0">
+<createdBy>TOSHIBA</createdBy>
+<createdTime>2020-05-14 16:47:52 UTC</createdTime>
+<ownerDesignName>workshop_4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6C24F65D-656C-98B7-5413-917383BCC674" referredColumn="676469E3-34B2-4BE3-7C06-1F7586561DD5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2DA59E32-252B-F561-F981-9EAEDAB77CCE" name="person_PK">
+<createdBy>TOSHIBA</createdBy>
+<createdTime>2020-05-14 15:47:10 UTC</createdTime>
+<ownerDesignName>workshop_4</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5F4D0CB5-FFB6-9400-7CE8-8DACA60690B8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="12DADC23-B8FD-7350-92B4-D6F159CED1A2" name="person_country_FK">
+<createdBy>TOSHIBA</createdBy>
+<createdTime>2020-05-14 16:47:52 UTC</createdTime>
+<ownerDesignName>workshop_4</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AF17932A-853C-6C32-A563-CC66079E4EB0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

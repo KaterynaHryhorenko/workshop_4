@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="34EEE332-D73F-82D7-1F5F-02E10566FBC5" name="coastline">
+<createdBy>TOSHIBA</createdBy>
+<createdTime>2020-05-12 15:46:48 UTC</createdTime>
+<ownerDesignName>workshop_4</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="coastline" id="550943FE-9474-EA70-301A-01028D3864CC">
+<createdBy>TOSHIBA</createdBy>
+<createdTime>2020-05-12 15:47:21 UTC</createdTime>
+<ownerDesignName>workshop_4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>38</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,38,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="date" id="FDE16A61-954A-D9B0-E318-40ACB07C943C">
+<createdBy>TOSHIBA</createdBy>
+<createdTime>2020-05-12 15:47:35 UTC</createdTime>
+<ownerDesignName>workshop_4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="country_fk" id="CC3B1DB8-6837-CB62-0A64-8F684F8FDA46">
+<createdBy>TOSHIBA</createdBy>
+<createdTime>2020-05-12 15:47:40 UTC</createdTime>
+<ownerDesignName>workshop_4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D620A0DC-7E64-8CF8-6E56-C3066FAAA369" referredColumn="676469E3-34B2-4BE3-7C06-1F7586561DD5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="83959D98-DBBA-2629-498A-CF37C7B507EA" name="coastline_PK">
+<createdBy>TOSHIBA</createdBy>
+<createdTime>2020-05-12 15:47:21 UTC</createdTime>
+<ownerDesignName>workshop_4</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="550943FE-9474-EA70-301A-01028D3864CC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C7D7675B-62AF-B0EC-A880-AB313B81615D" name="coastline_country_FK">
+<createdBy>TOSHIBA</createdBy>
+<createdTime>2020-05-12 15:47:40 UTC</createdTime>
+<ownerDesignName>workshop_4</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CC3B1DB8-6837-CB62-0A64-8F684F8FDA46"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

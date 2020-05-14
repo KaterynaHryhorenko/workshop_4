@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="37552D71-8190-5ADD-06BB-8D3A9A5871F0" name="coastline">
+<createdBy>TOSHIBA</createdBy>
+<createdTime>2020-05-14 15:53:04 UTC</createdTime>
+<generatorID>34EEE332-D73F-82D7-1F5F-02E10566FBC5</generatorID>
+<ownerDesignName>workshop_4</ownerDesignName>
+<engineerTo>
+<item key="BE7C0A14-2DBC-3AEC-42D1-59E533A76903" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="coastline" id="E15DEA50-529E-31AF-3A7B-3F8E7F71B882">
+<createdBy>TOSHIBA</createdBy>
+<createdTime>2020-05-14 15:53:04 UTC</createdTime>
+<generatorID>550943FE-9474-EA70-301A-01028D3864CC</generatorID>
+<ownerDesignName>workshop_4</ownerDesignName>
+<engineerTo>
+<item key="BE7C0A14-2DBC-3AEC-42D1-59E533A76903" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>38</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,38,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="date" id="9A0BAE3F-60E9-1AF4-154B-6FA0B02A1FF8">
+<createdBy>TOSHIBA</createdBy>
+<createdTime>2020-05-14 15:53:04 UTC</createdTime>
+<generatorID>FDE16A61-954A-D9B0-E318-40ACB07C943C</generatorID>
+<ownerDesignName>workshop_4</ownerDesignName>
+<engineerTo>
+<item key="BE7C0A14-2DBC-3AEC-42D1-59E533A76903" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="country fk" id="BCF8C6C3-FE8C-CF94-B334-E7A3973925A0">
+<createdBy>TOSHIBA</createdBy>
+<createdTime>2020-05-14 15:53:04 UTC</createdTime>
+<generatorID>7F577EF4-3780-ABCA-FB53-DE0E861C1248</generatorID>
+<ownerDesignName>workshop_4</ownerDesignName>
+<engineerTo>
+<item key="BE7C0A14-2DBC-3AEC-42D1-59E533A76903" value="true"/>
+</engineerTo>
+<referedAttribute>63D3C8F7-58AD-201B-82FF-46682A5684C0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E126396C-CBA7-8BE1-2158-0AF9800C7362" name="coastline PK">
+<createdBy>TOSHIBA</createdBy>
+<createdTime>2020-05-14 15:53:04 UTC</createdTime>
+<generatorID>83959D98-DBBA-2629-498A-CF37C7B507EA</generatorID>
+<ownerDesignName>workshop_4</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="BE7C0A14-2DBC-3AEC-42D1-59E533A76903" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E15DEA50-529E-31AF-3A7B-3F8E7F71B882</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1D68FD68-74A4-FC3C-7968-36CB028F861C" name="country">
+<createdBy>TOSHIBA</createdBy>
+<createdTime>2020-05-12 15:44:13 UTC</createdTime>
+<ownerDesignName>workshop_4</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="country" id="676469E3-34B2-4BE3-7C06-1F7586561DD5">
+<createdBy>TOSHIBA</createdBy>
+<createdTime>2020-05-12 15:44:34 UTC</createdTime>
+<ownerDesignName>workshop_4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="region_fk" id="0324AF46-6A78-4AB2-99F7-BE63E252D090">
+<createdBy>TOSHIBA</createdBy>
+<createdTime>2020-05-12 15:46:18 UTC</createdTime>
+<ownerDesignName>workshop_4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5F06107E-BF26-1B57-0E9F-18F6892F1073" referredColumn="BB5F1538-8A17-EEC8-B97F-B38634F72548"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C5333CF5-48D0-5C77-CF77-00A9B463E21C" name="country_PK">
+<createdBy>TOSHIBA</createdBy>
+<createdTime>2020-05-12 15:44:43 UTC</createdTime>
+<ownerDesignName>workshop_4</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="676469E3-34B2-4BE3-7C06-1F7586561DD5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8DA2D090-ACB5-F38D-2546-A6F0A93D58EC" name="country_region_FK">
+<createdBy>TOSHIBA</createdBy>
+<createdTime>2020-05-12 15:46:17 UTC</createdTime>
+<ownerDesignName>workshop_4</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0324AF46-6A78-4AB2-99F7-BE63E252D090"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

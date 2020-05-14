@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="63C83AE8-B957-F202-1961-39F35C372640" containerWithKeyObject="7B34395A-A1E3-281A-C319-0C76947E4398" localFKIndex="580254C7-DE0E-C8CE-80D4-A65F9FFA9DB2" name="migration_country_FKv2">
+<createdBy>TOSHIBA</createdBy>
+<createdTime>2020-05-14 16:42:01 UTC</createdTime>
+<ownerDesignName>workshop_4</ownerDesignName>
+<referredTableLongName>country</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1D68FD68-74A4-FC3C-7968-36CB028F861C</referredTableID>
+<keyObject>C5333CF5-48D0-5C77-CF77-00A9B463E21C</keyObject>
+<referredKeyID>C5333CF5-48D0-5C77-CF77-00A9B463E21C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>country</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

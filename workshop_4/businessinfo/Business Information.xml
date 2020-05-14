@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="A436FE2F-7017-53EF-16CE-A7DFCB7D3EAD">
+<createdBy>TOSHIBA</createdBy>
+<createdTime>2020-05-12 15:43:21 UTC</createdTime>
+<ownerDesignName>two_grate</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>
